@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEE;
+}
+
+
+
+.container{
+    max-width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.profile-img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5{
+    color:black;
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.content{
+    margin-bottom: 30px;
+}
+.edu-template-left{
+float:left;
+width: 50%;
+}
+
+.edu-template-right{
+float: right;
+width: 50%;
+}
+
+.bottom-container{
+ background-color: black;
+ text-align:center;
+ padding: 10px;
+}
+
+.bottom-container a{
+    color: aqua;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.bottom-container p{
+    color:aqua;
+    margin-top: 20px;
+}
+
